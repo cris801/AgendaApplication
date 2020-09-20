@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AgendaApplication</string>
+    <string name="tvTitle">Agenda con SQLite</string>
+    <string name="etName">Nombre</string>
+    <string name="etPhone">Teléfono</string>
+    <string name="etAddress">Dirección</string>
+    <string name="btnSave">Guardar</string>
+    <string name="btnConsult">Consultar</string>
+    <string name="hNombres">Nombre</string>
+</resources>
