@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
     private ListView lvConsult;
     private List<String> names;
 
-    private TextView tvConsulta;
-
     private String name;
     private String phone;
     private String address;
@@ -60,13 +58,11 @@ public class MainActivity extends AppCompatActivity {
         tilAddress = (TextInputLayout) findViewById(R.id.tilAddress);
         btnSave = (Button) findViewById(R.id.btnSave);
         btnConsult = (Button) findViewById(R.id.btnConsult);
-        tvConsulta = (TextView) findViewById(R.id.tvConsulta);
+
         lvConsult = (ListView) findViewById(R.id.lvConsult);
 
         //name = etName.getText().toString();
-        name = tilName.getEditText().getText().toString().trim();
-        phone = tilPhone.getEditText().getText().toString().trim();
-        address = tilAddress.getEditText().getText().toString().trim();
+
 
 
 
@@ -117,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
         Cursor cursor1 = usuario.Consulta(); // consulto todos los usuarios
 
         // recorremos el cursor
-        tvConsulta.setText("");
         String nombre, direccion;
         int idU, telefono;
 
@@ -137,6 +132,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     private Boolean isValidName() {
+        name = tilName.getEditText().getText().toString().trim();
+
         if (name.isEmpty()){
             //Toast.makeText(this, "no hay naida inil name", Toast.LENGTH_SHORT).show();
             tilName.setError("El campo no puede estar vacío.");
@@ -150,6 +147,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     private Boolean isValidPhone() {
+        phone = tilPhone.getEditText().getText().toString().trim();
+
         if (phone.isEmpty()){
             tilPhone.setError("El campo no puede estar vacío.");
             return false;
@@ -162,7 +161,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     private Boolean isValidAddress() {
-        phone = tilPhone.getEditText().getText().toString().trim();
         address = tilAddress.getEditText().getText().toString().trim();
         if (address.isEmpty()){
             tilAddress.setError("El campo no puede estar vacío.");
