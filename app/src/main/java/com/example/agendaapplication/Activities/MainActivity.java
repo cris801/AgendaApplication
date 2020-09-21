@@ -75,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 validations(v);
             }
         });
@@ -92,8 +91,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void NuevoUsuario(View v){
-        String phoneee = tilPhone.getEditText().getText().toString().trim();
-        int phonee = Integer.parseInt(phoneee);
+        phone = tilPhone.getEditText().getText().toString().trim();
+        int phonee = Integer.parseInt(phone);
 
         // crear o utilizar la bd
         db = sqlh.getWritableDatabase();

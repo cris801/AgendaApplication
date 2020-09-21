@@ -9,7 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 public class SQLiteHelper extends SQLiteOpenHelper {
-    public SQLiteHelper(@Nullable Context context, @Nullable String nameDB, @Nullable SQLiteDatabase.CursorFactory factory1, int version) {
+    public SQLiteHelper(@Nullable Context context, @Nullable String nameDB, @Nullable
+            SQLiteDatabase.CursorFactory factory1, int version) {
         super(context, nameDB, factory1, version);
     }
 
@@ -17,8 +18,7 @@ public class SQLiteHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        db.execSQL("CREATE TABLE usuarios (idU INTEGER PRIMARY KEY AUTOINCREMENT," +
-                "nombre TEXT, direccion TEXT, telefono INTEGER);");
+        db.execSQL("CREATE TABLE usuarios (idU INTEGER PRIMARY KEY AUTOINCREMENT," + "nombre TEXT, direccion TEXT, telefono INTEGER);");
     }
 
     @Override

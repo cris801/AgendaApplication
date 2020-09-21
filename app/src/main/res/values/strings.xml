@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AgendaApplication</string>
+    <string name="app_name">Agenda de PBC</string>
     <string name="tvTitle">Agenda con SQLite</string>
     <string name="etName">Nombre</string>
     <string name="etPhone">Teléfono</string>

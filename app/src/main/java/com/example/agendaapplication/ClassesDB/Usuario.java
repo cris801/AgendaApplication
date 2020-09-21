@@ -22,7 +22,7 @@ public class Usuario {
         valores.put("direccion",direccion);
         valores.put("telefono",telefono);
         db.insert(tableName,null,valores);
-        Toast.makeText(context1, "U Reg", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context1, "USUARIO REGISTRADO", Toast.LENGTH_SHORT).show();
     }
 
     public Cursor Consulta(){
