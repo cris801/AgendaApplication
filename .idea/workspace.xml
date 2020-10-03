@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d02968c-87d0-4b0a-8650-c37735aac57c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/agendaapplication/Activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/agendaapplication/Activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/agendaapplication/ClassesDB/SQLiteHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/agendaapplication/ClassesDB/SQLiteHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/agendaapplication/ClassesDB/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/agendaapplication/ClassesDB/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +49,8 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_2_API_28" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-21T04:59:35.292Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../APP AsTecI/Seccion 8 SP y SS/1SharedPreferences" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -159,6 +155,10 @@
     </state>
     <state x="158" y="73" key="#PSD/0.0.1280.680@0.0.1280.680" timestamp="1600641171321" />
     <state x="237" y="110" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1600658175309" />
+    <state x="691" y="164" key="#app" timestamp="1601492699079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="164" key="#app/0.0.1920.1040@0.0.1920.1040" timestamp="1601492699079" />
     <state x="285" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1600580377921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -176,11 +176,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="170" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1600654543711" />
-    <state x="493" y="180" key="FileChooserDialogImpl" timestamp="1600573054221">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600666579942">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="493" y="180" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600573054221" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600570747326" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600666579942" />
     <state x="813" y="413" key="Github.ShareDialog" timestamp="1600634465026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
